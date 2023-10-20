@@ -22,7 +22,25 @@
 body {
   background-color: var(--back-color);
 }
+#coverhomeapp {
 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.67)),
+  url(images/1000_F_314876249_O2GFOsWQy2KoBHrBWBWJsipsYbg25Q4J.jpg);
+  background-position: center;
+  background-color: aqua;
+  height: 280px;
+  margin-bottom: 2rem;
+}
+
+#coveredu{
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.67)),
+  url(images/1000_F_314876249_O2GFOsWQy2KoBHrBWBWJsipsYbg25Q4J.jpg);
+  background-position: center;
+  background-color: aqua;
+  height: 280px;
+  margin-bottom: 2rem;
+}
 .header-1 {
   display: flex;
   justify-content: center;
@@ -432,6 +450,7 @@ ul li:hover .dropdown {
 }
 
 .cards {
+  display: inline-block;
   height: 400px;
   text-align: center;
   width: 250px;
@@ -870,4 +889,11 @@ span {
     background-color: #e0ba42;
     border-radius: 50px;
   }
+}
+
+.display-item {
+
+  padding: 2rem;
+  height:100px;
+  display: inline-block;
 }

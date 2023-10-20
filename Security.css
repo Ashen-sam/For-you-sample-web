@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 
 
 * {
@@ -25,7 +24,6 @@ body {
 #active-home li a{
   color: rgb(242, 160, 8);
 }
-
 
 /*header section styles*/ 
 .header-1 {
@@ -122,6 +120,8 @@ padding: 0.7rem;
 #list-2 li a:hover {
  color: #f17e0b;
 }
+
+/*dropdown styling*/
 #dropdown li a {
   font-size: 1rem;
   margin: 1rem;
@@ -216,14 +216,9 @@ ul li:hover .dropdown {
 .cover-image{
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.67)),
-
-  url(./images/iphone-15-finish-select-202309-6-1inch_GEO_EMEA_FMT_WHH.jpeg);
-  background-position: center;
-
   url(images/1000_F_314876249_O2GFOsWQy2KoBHrBWBWJsipsYbg25Q4J.jpg);
   background-position: center;
   background-color: aqua;
-
   height: 280px;
   margin-bottom: 2rem;
 }
@@ -386,6 +381,7 @@ span {
   color: brown;
 }
 
+/*media quaries*/
 @media (max-width: 1800px) {
 .cards {
   height: 380px;
@@ -704,4 +700,3 @@ span {
   border-radius: 50px;
 }
 }
-
